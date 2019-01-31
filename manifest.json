@@ -1,9 +1,9 @@
 {
 
-  "description": "Adds a solid red border to all webpages matching mozilla.org. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#borderify",
+  "description": "Changes Images to skynet",
   "manifest_version": 2,
   "name": "IntraToSkynet",
-  "version": "1.0",
+  "version": "1.2",
   "homepage_url": "https://github.com/Becktor/intraToSkynet",
   "icons": {
     "48": "icons/border-48.png"
@@ -11,7 +11,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://3shapedental.sharepoint.com/*"],
+      "matches": ["<all_urls>"],
       "js": ["IntraToSkynet.js"]
     }
   ]
