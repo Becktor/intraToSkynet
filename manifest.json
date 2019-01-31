@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "name": "IntraToSkynet",
   "version": "1.0",
-  "homepage_url": "https://github.com/IntraToSkynet",
+  "homepage_url": "https://github.com/Becktor/intraToSkynet",
   "icons": {
     "48": "icons/border-48.png"
   },
