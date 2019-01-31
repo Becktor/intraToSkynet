@@ -9,7 +9,7 @@ This extension just includes:
 * a content script, "IntraToSkynet.js", that is injected into any pages
 under "3shapedental.sharepoint.com/" or any of its subdomains
 
-The content script draws a border around the document.body.
+The content script changes the 3shape intranet logo with 3shape skynet and updates tab title to 3shape skynet
 
 ## What it shows
 
